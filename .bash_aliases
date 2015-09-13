@@ -10,7 +10,7 @@ alias brc='atom ~/.bashrc'
 
 # Localhost
 alias h='sudo  atom /etc/hosts'
-alias sa='sudo atom /etc/nginx/sites-available'
+alias nsa='sudo atom /etc/nginx/sites-available'
 
 # CLI Nav
 alias l='ls    -alvF   '
