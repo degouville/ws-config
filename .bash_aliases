@@ -18,6 +18,7 @@ alias t=' tree -ugavpD'
 alias tl='tree -ugavpDL'
 alias c='clear'
 alias ..='cd ../'
+alias nf='sudo ntfsfix /dev/sdb1'
 alias del='sudo rm -rf'
 
 # Projects
