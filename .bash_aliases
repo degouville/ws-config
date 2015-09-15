@@ -50,7 +50,9 @@ alias gs=' g status        '
 alias gd=' g diff          '
 alias gl=' g log      -3   '
 alias gb=' g checkout -b   '
-alias gcl=' g clone         '
+alias gcl='g clone         '
+alias gp=' g push          '
+alias pg=' g pull          '
 
 # Git Clones
 alias gca=' gcl https://github.com/angular/angular.git          .'
@@ -65,5 +67,5 @@ alias gcwp='gcl https://github.com/WordPress/WordPress.git      .'
 # WordPress
 alias wprst='sudo rm -rf wp-content/themes/twenty{t,e,fo}*'
 
-# IP Api
+# IP info
 alias ip?='curl ipinfo.io'
