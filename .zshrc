@@ -97,8 +97,50 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="atom ~/.zshrc"
+alias ohmyzsh="  atom ~/.oh-my-zsh"
 
 alias co="composer"
 alias c="clear"
+
+# Localhost
+alias h='sudo  atom /etc/hosts'
+alias nsa='sudo atom /etc/nginx/sites-available'
+
+# Nav
+alias l='ls    -alvF'
+alias t=' tree -ugavpD'
+alias tl='tree -ugavpDL'
+alias nf='sudo ntfsfix /dev/sdb1'
+alias del='sudo rm -rf'
+
+# Projects
+alias dev='cd ~/Dev    && l'
+alias lab='cd ~/Lab    && l'
+alias ghb='cd ~/Github && l'
+alias www='cd /var/www && l'
+
+# Permissions & Users
+alias own='sudo chown -R'
+alias grp='sudo chgrp -R'
+alias mod='sudo chmod -R'
+
+# Docker
+alias d='sudo docker'
+alias dc='docker-compose'
+
+# Git Clones
+alias gca=' gcl https://github.com/angular/angular.git          .'
+alias gcb=' gcl https://github.com/twbs/bootstrap.git           .'
+alias gcd3='gcl https://github.com/mbostock/d3.git              .'
+alias gcla='gcl https://github.com/mdegoo/laravel.git           .'
+alias gclu='gcl https://github.com/laravel/lumen.git            .'
+alias gcr=' gcl https://github.com/facebook/react.git           .'
+alias gcsf='gcl https://github.com/symfony/symfony-standard.git .'
+alias gcwp='gcl https://github.com/WordPress/WordPress.git      .'
+
+# WordPress
+alias wprst='sudo rm -rf wp-content/themes/twenty{t,e,fo}*'
+
+# IP info
+alias 'ip?'='curl ipinfo.io'
