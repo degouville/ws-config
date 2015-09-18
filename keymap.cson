@@ -28,5 +28,5 @@
 
 'atom-text-editor':
   'ctrl-shift-tab': 'window:focus-pane-on-left'
-  'alt-shift-tab' : 'window:focus-pane-on-right'
+  'alt-"'         : 'window:focus-pane-on-right'
   'alt-d'         : 'find-and-replace:select-all'
