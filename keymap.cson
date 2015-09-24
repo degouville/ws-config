@@ -30,3 +30,5 @@
   'ctrl-shift-tab': 'window:focus-pane-on-left'
   'alt-"'         : 'window:focus-pane-on-right'
   'alt-d'         : 'find-and-replace:select-all'
+  'ctrl-t'        : 'terminal-plus:toggle'
+  'ctrl-shift-X'  : 'snippets:next-tab-stop'
