@@ -144,4 +144,5 @@ alias wprst='sudo rm -rf wp-content/themes/twenty{t,e,fo}*'
 
 # IP info
 alias 'ip?'='curl ipinfo.io'
-alias 'a?'='alias |grep'
+alias 'a?'=' alias |grep'
+alias 'h?'=" cat ~/.zsh_history |grep"
