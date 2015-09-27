@@ -102,15 +102,16 @@ alias ohmyzsh="  atom ~/.oh-my-zsh"
 
 alias co="composer"
 alias c="clear"
+alias itl="sudo dpkg -i"
 
 # Localhost
-alias h='sudo  atom /etc/hosts'
+alias h='sudo   atom /etc/hosts'
 alias nsa='sudo atom /etc/nginx/sites-available'
 
 # Nav
 alias l='ls    -alvF'
-alias t=' tree -ugavpD'
-alias tl='tree -ugavpDL'
+alias t=' tree -ugavpDC'
+alias tl='tree -ugavpDCL'
 alias nf='sudo ntfsfix /dev/sdb1'
 alias del='sudo rm -rf'
 
@@ -144,5 +145,7 @@ alias wprst='sudo rm -rf wp-content/themes/twenty{t,e,fo}*'
 
 # IP info
 alias 'ip?'='curl ipinfo.io'
+
+# ?
 alias 'a?'=' alias |grep'
 alias 'h?'=" cat ~/.zsh_history |grep"
