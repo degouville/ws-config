@@ -154,3 +154,6 @@ alias 'ip?'='curl ipinfo.io'
 # ?
 alias 'a?'=' alias |grep'
 alias 'h?'=" cat ~/.zsh_history |grep"
+
+# Server
+alias 'sr'="sudo service nginx stop && service php5-fpm stop && service nginx start && service php5-fpm start && service nginx status && service php5-fpm status"
