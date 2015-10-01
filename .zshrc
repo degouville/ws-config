@@ -143,6 +143,11 @@ alias gcwp='gcl https://github.com/WordPress/WordPress.git      .'
 # WordPress
 alias wprst='sudo rm -rf wp-content/themes/twenty{t,e,fo}*'
 
+# Laravel
+alias a='la5'
+alias acc='la5cache'
+alias ars='la5routes'
+
 # IP info
 alias 'ip?'='curl ipinfo.io'
 
