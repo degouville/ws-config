@@ -130,6 +130,10 @@ alias mod='sudo chmod -R'
 alias d='sudo docker'
 alias dc='docker-compose'
 
+# Git
+alias gnb=' gco -b'
+alias grb=' gb  -d'
+
 # Git Clones
 alias gca=' gcl https://github.com/angular/angular.git          .'
 alias gcb=' gcl https://github.com/twbs/bootstrap.git           .'
