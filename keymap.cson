@@ -29,6 +29,9 @@
 'atom-text-editor':
   'alt-d'         : 'find-and-replace:select-all'
   'ctrl-t'        : 'terminal-plus:toggle'
+  'ctrl-0'        : 'tree-view:show'
+  'ctrl-alt-s'    : 'php-cs-fixer:fix'
+  'ctrl-alt-space': 'atom-autocomplete-php:goto'
 
   'ctrl-shift-up ctrl-shift-right'  : 'window:focus-pane-on-right'
   'ctrl-shift-up ctrl-shift-left'   : 'window:focus-pane-on-left'
