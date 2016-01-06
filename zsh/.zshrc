@@ -102,6 +102,7 @@ alias ohmyzsh="  atom ~/.oh-my-zsh"
 
 alias co="composer"
 alias c="clear"
+alias s!="sudo !!"
 alias itl="sudo dpkg -i"
 
 # Localhost
