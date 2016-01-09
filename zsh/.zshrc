@@ -110,7 +110,7 @@ alias h='sudo   atom /etc/hosts'
 alias nsa='sudo atom /etc/nginx/sites-available'
 
 # Nav
-alias l='ls    -alvF'
+alias l='ls -alvXF --group-directories-first'
 alias t=' tree -ugavpDC'
 alias tl='tree -ugavpDCL'
 alias nf='sudo ntfsfix /dev/sdb1'
