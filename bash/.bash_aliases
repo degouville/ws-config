@@ -13,7 +13,7 @@ alias h='sudo  atom /etc/hosts'
 alias nsa='sudo atom /etc/nginx/sites-available'
 
 # CLI Nav
-alias l='ls    -alvF   '
+alias l='ls -alvXF --group-directories-first'
 alias t=' tree -ugavpD'
 alias tl='tree -ugavpDL'
 alias c='clear'
