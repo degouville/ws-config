@@ -175,4 +175,10 @@ alias 'a?'=' alias |grep'
 alias 'h?'=" cat ~/.zsh_history |grep"
 
 # Server
-alias 'sr'="sudo service nginx stop && service php5-fpm stop && service nginx start && service php5-fpm start && service nginx status && service php5-fpm status"
+alias 'sr'="sudo service nginx stop        \
+              && service php7.0-fpm stop   \
+              && service nginx start       \
+              && service php7.0-fpm start  \
+              && service nginx status      \
+              && service php7.0-fpm status
+"
