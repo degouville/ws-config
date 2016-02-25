@@ -67,6 +67,7 @@ alias gcwp='gcl https://github.com/WordPress/WordPress.git      .'
 
 # WordPress
 alias wprst='sudo rm -rf wp-content/themes/twenty{t,e,fo}*'
+alias wpdl='wget https://wordpress.org/latest.zip'
 
 # IP info
 alias ip?='curl ipinfo.io'
