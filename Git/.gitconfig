@@ -1,0 +1,7 @@
+[user]
+	email = mathieu@degouville.com
+	name = Mathieu de Gouville
+[push]
+	default = simple
+[core]
+	editor = atom --wait
