@@ -36,8 +36,9 @@ alias d='sudo docker'
 alias dc='docker-compose'
 
 # Git
-alias gnb=' gco -b'
-alias grb=' gb  -d'
+alias gnb='gco -b'
+alias grb='gb  -d'
+alias gcl='gcl --depth=1'
 
 # WordPress
 alias wprst='sudo rm -rf wp-content/themes/twenty{t,e,fo}*'
