@@ -1,0 +1,101 @@
+#
+# - Bash/Zsh Aliases Configuration
+#
+
+# syntax: alias=''
+
+alias co='          composer                                              '
+alias c='           clear                                                 '
+alias itl='         sudo dpkg -i                                          '
+
+# Editors
+alias V='           sudo vim                                              '
+alias v='           vim                                                   '
+
+# Localhost
+alias h='           sudo   atom /etc/hosts                                '
+alias nsa='         sudo atom /etc/nginx/sites-available                  '
+
+# Nav
+alias l='           ls -alvXF --group-directories-first                   '
+alias t='           tree -ugavpDC                                         '
+alias tl='          tree -ugavpDCL                                        '
+alias dev='         cd ~/Dev      && l                                    '
+alias lab='         cd ~/Lab      && l                                    '
+alias ghb='         cd ~/Github   && l                                    '
+alias www='         cd /var/www   && l                                    '
+alias ngx='         cd /etc/nginx && l                                    '
+alias nf='          sudo ntfsfix /dev/sdb1                                '
+alias del='         sudo rm -rf                                           '
+
+# Permissions & Users
+alias own='         sudo chown -R                                         '
+alias grp='         sudo chgrp -R                                         '
+alias mod='         sudo chmod -R                                         '
+
+# Docker
+alias d='           sudo docker                                           '
+alias dc='          docker-compose                                        '
+
+# Git
+alias gnb='         gco -b                                                '
+alias grb='         gb  -d                                                '
+alias gs='          gss                                                   '
+alias gcl='         gcl --depth=1                                         '
+
+# WordPress
+alias wprst='       sudo rm -rf wp-content/themes/twenty{t,e,fo}*         '
+alias wpdl="        wget https://wordpress.org/latest.zip \
+                    && unzip latest.zip                   \
+                    && del   latest.zip
+"
+
+# Laravel
+alias afl='         mod 777 storage/logs                                  '
+alias a='           la5                                                   '
+alias acc='         la5cache                                              '
+alias ars='         la5routes                                             '
+alias amcmd='       la5 make:command                                      '
+alias amcsl='       la5 make:console                                      '
+alias amctr='       la5 make:controller                                   '
+alias ame='         la5 make:event                                        '
+alias amj='         la5 make:job                                          '
+alias aml='         la5 make:listener                                     '
+alias ammdw='       la5 make:middleware                                   '
+alias ammgr='       la5 make:migration                                    '
+alias ammdl='       la5 make:model                                        '
+alias amplc='       la5 make:policy                                       '
+alias ampvd='       la5 make:provider                                     '
+alias amrqu='       la5 make:request                                      '
+alias amsdr='       la5 make:seeder                                       '
+alias amtst='       la5 make:test                                         '
+
+# Symfony
+alias sfcs='        sudo rm -rf var/cache/*                               '
+alias sfcc='        sf cache:clear                                        '
+alias sfcc!='       sf cache:clear -e prod                                '
+alias sfdsu='       sf doctrine:schema:update --dump-sql                  '
+alias sfdsu!='      sf doctrine:schema:update --dump-sql --force          '
+alias sfdsc='       sf doctrine:schema:create                             '
+alias sfdsd='       sf doctrine:schema:drop                               '
+alias sfdsv='       sf doctrine:schema:validate                           '
+alias sfdge='       sf doctrine:generate:entity                           '
+alias sfdges='      sf doctrine:generate:entities AppBundle --no-backup   '
+alias sflog.error=' tail -f      logs/error.log |grep error               '
+alias sflog.access='tail -f -n 3 logs/access.log                          '
+
+# IP info
+alias 'ip?'='       curl ipinfo.io                                        '
+
+# ?
+alias 'a?'='        alias              |grep                              '
+alias 'h?'='        cat ~/.zsh_history |grep                              '
+
+# Server
+alias 'sr'="        sudo service nginx stop     \
+                    && service php7.0-fpm stop  \
+                    && service nginx start      \
+                    && service php7.0-fpm start \
+                    && service nginx status     \
+                    && service php7.0-fpm status
+"
