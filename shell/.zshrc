@@ -40,6 +40,7 @@ plugins=(
   last-working-dir
   npm
   node
+  symfony2
   ubuntu
   web-search
 )
@@ -66,4 +67,8 @@ fi
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 if [ -f ~/.aliases ]; then
   . ~/.aliases
+fi
+
+if [ -f ~/.secure_aliases ]; then
+  . ~/.secure_aliases
 fi
