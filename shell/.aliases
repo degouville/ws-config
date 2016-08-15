@@ -88,6 +88,7 @@ alias sfdges=' sf doctrine:generate:entities --no-backup AppBundle              
 alias sfdfl='  sf doctrine:fixtures:load --append                                      '
 alias sffp='   sf faker:populate                                                       '
 alias sfd!='   sfddd && sfddc && sfdsu! && sfdfl && sffp && sfcc                       '
+alias sfrd='   sf debug:router --show-controllers                                      '
 alias sftu='   sf translation:update fr  --dump-messages --force                       '
 alias sflog.error=' tail -f      logs/error.log |grep error                            '
 alias sflog.access='tail -f -n 3 logs/access.log                                       '
